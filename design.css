@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(231, 237, 248);
+}
+
+.container{
+    width: 60vh;
+    height: 60vh;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(193, 211, 243),
+                -10px -10px 15px rgb(201, 218, 248);
+}
+
+.display #output{
+    width: 60vh;
+    height: 8vh;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 4px 4px 10px rgb(159, 193, 246),
+                inset -4px -4px 10px rgb(215, 227, 248);
+    text-align: right;
+}
+
+.buttons{
+    width: 100%;
+    display: table;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.buttons .row .button{
+    height: 55px;
+    width: 55px;
+    margin: 10px;
+    font-size: 15px;
+    background: #e9edf5;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 7px 5px 10px rgb(174, 194, 227),
+                -5px -5px 10px rgb(215, 227, 248);
+}
+
